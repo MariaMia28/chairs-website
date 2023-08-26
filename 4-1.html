@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en-US">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<title>HTML and CSS for Complete Beginners: Example 4-1 - Simple landing page</title>
+
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600;700;900&display=swap" rel="stylesheet" />
+
+		<link rel="stylesheet" href="css/4-1.css">
+	</head>
+	<body>
+		<header id="main-header">
+			<div class="container">
+				<a href=""><img src="images/landing-page/logo.svg" alt="logo for furniture company"></a>
+				<h1>Modern Chairs Crafted with Love</h1>
+				<h2>We love creating high quality and comfortable chairs</h2>
+				<a href="#our-chairs" class="btn">Discover our chair selection</a>
+
+			</div>
+		</header>
+
+		<section id="our-chairs">
+			<div class="container">
+				<header>
+					<p class="section-intro">the selection</p>
+					<h3>our chairs</h3>
+					<p>we mostly sell one-off items. that means we make one-of-a-kind 
+						furniture with your butt imprinted on it.
+					</p>
+				</header>
+
+				<div class="gallery">
+					<div>
+						<img src="images/landing-page/furniture-1.jpg" alt="furniture">
+						<p class="number">01</p>
+						<h4>white leather sofa chair</h4>
+						<p>cool timeless design chair</p>
+						<p>$289</p>
+					</div>
+					<div>
+						<img src="images/landing-page/furniture-2.jpg" alt="furniture">
+						<p class="number">02</p>
+						<h4>black&brown chair</h4>
+						<p>cool minimalistic design chair</p>
+						<p>$99</p>
+					</div>
+					<div>
+						<img src="images/landing-page/furniture-3.jpg" alt="furniture">
+						<p class="number">03</p>
+						<h4>white bar stool</h4>
+						<p>cool solid design chair</p>
+						<p>$139</p>
+					</div>
+				</div>
+
+				<p>interested in our products? <a href="#contact">send us a message</a> 
+					or <a href="#store">visit our store</a>.</p>
+			</div>
+
+		</section>
+
+		<section id="contact" class="dark">
+			<div class="container small">
+				<header>
+					<p class="section-intro">contact us</p>
+					<h3>let's get in touch</h3>
+				</header>
+
+				<form action="" method="post">
+					<div>
+						<label for="contact-name">Name</label>
+						<input type="text" name="contact-name" id="contact-name">
+					</div>
+					<div>
+						<label for="contact-email">Email address</label>
+						<input type="email" name="contact-email" id="contact-email">
+					</div>
+					<div>
+						<label for="contact-message">Message</label>
+						<textarea name="contact-message" id="contact-message" 
+						cols="30" rows="10"></textarea>
+					</div>
+					<div>
+						<button class="btn">send message</button>
+						<p class="muted"><em>we'll get back to you a$ap</em></p>
+					</div>
+					</form>
+			</div>
+
+		</section>
+
+		<section id="store">
+			<div class="container">
+				<p class="section-intro">visit our store</p>
+				<h3 class="large">(696)969</h3>
+				<p class="large">2972 location somewhere, Floria 85490</p>
+
+				<ul class="social-icons">
+					<li>
+						<a href=""><img src="images/landing-page/icon-twitter.svg" alt="twitter"></a>
+					</li>
+					<li>
+						<a href=""><img src="images/landing-page/icon-facebook.svg" alt="facebook"></a>
+					</li>
+					<li>
+						<a href=""><img src="images/landing-page/icon-instagram.svg" alt="instagram"></a>
+					</li>
+				</ul>
+			</div>
+		</section>
+
+		<footer>
+			<div class="container">
+				<p>&copy; copyright a random year with a random location and all rights reserved</p>
+
+			</div>
+		</footer>
+	</body>
+</html>
